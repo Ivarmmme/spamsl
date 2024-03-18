@@ -1,0 +1,23 @@
+{
+  "name": "spambot",
+  "description": "Description of your bot.",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram bot token.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Your Telegram API ID.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Your Telegram API hash.",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
