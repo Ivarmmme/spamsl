@@ -1,5 +1,5 @@
 {
-  "name": "spambot",
+  "name": "Spambot",
   "description": "Description of your bot.",
   "env": {
     "BOT_TOKEN": {
