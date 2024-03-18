@@ -1,17 +1,21 @@
 {
-  "name": "Spambot",
-  "description": "Description of your bot.",
+  "name": "spam-bot",
+  "description": "A Telegram bot to send spam messages controlled by authorized users.",
   "env": {
     "BOT_TOKEN": {
-      "description": "Your Telegram bot token.",
+      "description": "Your bot token, as a string.",
       "value": ""
     },
     "API_ID": {
-      "description": "Your Telegram API ID.",
+      "description": "Your Telegram API ID, as an integer.",
       "value": ""
     },
     "API_HASH": {
-      "description": "Your Telegram API hash.",
+      "description": "Your Telegram API hash, as a string.",
+      "value": ""
+    },
+    "AUTH_USERS": {
+      "description": "Comma-separated list of authorized user IDs.",
       "value": ""
     }
   },
