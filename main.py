@@ -51,7 +51,7 @@ async def send_spam_messages(client, chat_id, message):
     while is_spamming:
         try:
             await client.send_message(chat_id, text=message)
-            await asyncio.sleep(3)  # Sleep duration to respect the rate limit
+            await asyncio.sleep(1)  # Sleep duration to respect the rate limit
         except FloodWait as e:
             await asyncio.sleep(e.x)
         except Exception as e:
